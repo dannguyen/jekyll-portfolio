@@ -1,0 +1,16 @@
+header.header{
+  background: black;
+  border-bottom: thin solid #aaa;
+  // margin-bottom: 1.0em;
+  padding-bottom: 0.3em;
+  padding-top: 0.3em;
+
+  .site-title{
+    font-size: 1.0;
+    font-family: Raleway, 'Helvetica Neue';
+
+    a:link, a{
+      color: #ddd;
+    }
+  }
+}

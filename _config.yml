@@ -1,0 +1,67 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that.
+
+##### Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+# Site meta
+title: Your Jekyll Portfolio
+author_name: Taylor Shift
+email: youremail@example.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+
+# Deployment meta
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/jekyll-portfolio" # the subpath of your site, e.g. /blog
+# Note: if you have your portfolio at YOURNAME.github.io, then
+# you don't need a subpath, e.g. site is accessible at
+# https://YOURNAME.github.io
+
+
+# social and service accounts
+service_accounts:
+  google_analytics: TK # UA-1TKTKTKT
+  twitter: TK # chrissyteigenjr
+  github: TK # markzzzuck
+  linkedin: TK # bill.gates
+  youtube: channel/channelid # prefix type of id, e.g. c/custom_url, channel/Ucw7dTKTKTKT, user/caseyneistat
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+plugins:
+  - jekyll-feed
+
+
+assets:
+  path: assets
+#  css_compressor: sass
+
+
+exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md']
+
+plugins:
+ - jekyll-coffeescript
+
+sass:
+    sass_dir: _sass
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
